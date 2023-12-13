@@ -6,6 +6,21 @@ At the first, install dependencies as following,
 
 ```shell
 python -m venv .venv
+```
+
+Activate the virtual environment.
+
+- Windows
+
+```shell
+.\.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+- Linux
+  
+```shell
+source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
