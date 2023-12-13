@@ -1,5 +1,7 @@
 # Document Search with Embeddings
 
+Verified on Python 3.12.1.
+
 ## Quick start
 
 At the first, install dependencies as following,

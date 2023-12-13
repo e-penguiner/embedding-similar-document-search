@@ -6,7 +6,7 @@ def generate_embedding(client, text, model="text-embedding-ada-002"):
     return response.data[0].embedding
 
 
-def normalize_text(s, sep_token=" \n "):
+def normalize_text(s):
     s = re.sub(r"\s+", " ", s).strip()
     s = re.sub(r". ,", "", s)
     s = s.replace("..", ".")
