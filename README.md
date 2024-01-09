@@ -37,3 +37,9 @@ Search similar docs for your query.
 ```shell
 python search_similar_doc.py --embedding-file=<josnl_path> --query=<your_query> --top=<num> --api-key=<YOUR_OPENAI_API_KEY>
 ```
+
+Custom Hook
+
+```shell
+python search_similar_doc.py --embedding-file=<josnl_path> --query=<your_query> --top=<num> --hook=hook.yaml --api-key=<YOUR_OPENAI_API_KEY>
+```

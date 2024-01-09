@@ -1,0 +1,3 @@
+prehook:
+  model: "gpt-3.5-turbo"
+  prompt: "You will be provided a sentence or a statement, and your task is to identify and translate its specific requirement or request into a clear English phrase. For instance, if input is  '接触を定義したい' (I want to define contact), you translate this requirement into 'how to define contact' in English."
